@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator - Express Js</title>
+  </head>
+  <body style="text-align: center">
+    <div>
+      <h2>This is Home Page</h2>
+
+      <form action="/bmiCalculator" method="POST">
+        <div>
+          <label for="height">Height (centimeters)</label>
+          <input type="text" name="height" required />
+        </div>
+        <br />
+        <div>
+          <label for="weight">Weight (kilograms)</label>
+          <input type="text" name="weight" required />
+        </div>
+        <br />
+        <button type="submit">Calculate</button>
+      </form>
+    </div>
+  </body>
+</html>
